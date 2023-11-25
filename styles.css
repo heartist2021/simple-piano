@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.piano {
+    display: flex;
+}
+
+.key {
+    height: 120px;
+    width: 20px;
+    margin: 0 5px;
+    border: 1px solid #000;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.black {
+    height: 80px;
+    width: 15px;
+    margin: 0 -7.5px;
+    background-color: #df1a1a;
+}
